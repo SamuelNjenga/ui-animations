@@ -1,10 +1,10 @@
 import React from "react";
-import LoopTrue from "./loop/LoopTrue";
+import LoopFunction from "./loop/LoopFunction";
 
 const App = () => {
   return (
     <div>
-      <LoopTrue />
+      <LoopFunction />
     </div>
   );
 };
