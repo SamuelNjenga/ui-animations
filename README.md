@@ -17,3 +17,5 @@ It correctly bundles the application in production mode and optimizes the build 
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Author : Samuel Njenga

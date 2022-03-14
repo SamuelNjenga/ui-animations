@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./number/Counter";
+import Scrolling from "./select/Scrolling";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <Scrolling />
     </div>
   );
 };
