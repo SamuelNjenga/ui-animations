@@ -1,10 +1,10 @@
 import React from "react";
-import FadingComponent from "./text/FadingComponent";
+import FlippingComponent from "./text/FlippingComponent";
 
 const App = () => {
   return (
     <div>
-      <FadingComponent />
+      <FlippingComponent />
     </div>
   );
 };
