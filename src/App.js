@@ -1,10 +1,10 @@
 import React from "react";
-import Scrolling from "./select/Scrolling";
+import LoopTrue from "./loop/LoopTrue";
 
 const App = () => {
   return (
     <div>
-      <Scrolling />
+      <LoopTrue />
     </div>
   );
 };
