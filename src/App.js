@@ -1,10 +1,10 @@
 import React from "react";
-import FlippingComponent from "./text/FlippingComponent";
+import Counter from "./number/Counter";
 
 const App = () => {
   return (
     <div>
-      <FlippingComponent />
+      <Counter />
     </div>
   );
 };
