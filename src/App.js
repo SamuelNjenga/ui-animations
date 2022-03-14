@@ -1,10 +1,10 @@
 import React from "react";
-import LoopFunction from "./loop/LoopFunction";
+import LoopObject from "./loop/LoopObject";
 
 const App = () => {
   return (
     <div>
-      <LoopFunction />
+      <LoopObject />
     </div>
   );
 };
