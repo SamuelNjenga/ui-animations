@@ -1,10 +1,10 @@
 import React from "react";
-import LoopObject from "./loop/LoopObject";
+import InheritedLoop from "./loop/InheritedLoop";
 
 const App = () => {
   return (
     <div>
-      <LoopObject />
+      <InheritedLoop />
     </div>
   );
 };
