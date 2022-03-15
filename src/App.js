@@ -1,10 +1,14 @@
 import React from "react";
-import InheritedLoop from "./loop/InheritedLoop";
+
+import Card from "./easings/Card";
+import CardTwo from "./easings/CardTwo";
 
 const App = () => {
   return (
     <div>
-      <InheritedLoop />
+      <Card />
+      <br />
+      <CardTwo />
     </div>
   );
 };
