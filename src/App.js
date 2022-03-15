@@ -1,14 +1,11 @@
 import React from "react";
 
-import Card from "./easings/Card";
-import CardTwo from "./easings/CardTwo";
+import BackwardsCompatability from "./imperatives/BackwardsCompatability";
 
 const App = () => {
   return (
-    <div>
-      <Card />
-      <br />
-      <CardTwo />
+    <div style={{ marginLeft: "70px", marginTop: "40px" }}>
+      <BackwardsCompatability />
     </div>
   );
 };
