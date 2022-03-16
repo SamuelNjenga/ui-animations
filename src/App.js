@@ -1,11 +1,10 @@
 import React from "react";
-
-import ChainComponent from "./useChain/ChainComponent";
+import ChainExample from "./useSpring/ChainExample";
 
 const App = () => {
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <ChainComponent />
+      <ChainExample />
     </div>
   );
 };
