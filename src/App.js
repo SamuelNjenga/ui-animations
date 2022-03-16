@@ -1,10 +1,11 @@
 import React from "react";
-import ChainExample from "./useSpring/ChainExample";
+
+import AnimatingAuto from "./useSpring/AnimatingAuto";
 
 const App = () => {
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <ChainExample />
+      <AnimatingAuto />
     </div>
   );
 };
