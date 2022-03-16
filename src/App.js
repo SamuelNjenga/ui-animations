@@ -1,11 +1,11 @@
 import React from "react";
 
-import BackwardsCompatability from "./imperatives/BackwardsCompatability";
+import ChainComponent from "./useChain/ChainComponent";
 
 const App = () => {
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <BackwardsCompatability />
+      <ChainComponent />
     </div>
   );
 };
