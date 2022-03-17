@@ -1,11 +1,13 @@
 import React from "react";
 
-import CardsStack from "./useSpring/CardsStack";
+import DraggableList from "./useSprings/DraggableList";
+
+import  "./useSprings/styles.module.css";
 
 const App = () => {
   return (
-    <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <CardsStack />
+    <div style={{ marginLeft: "70px", marginTop: "40px" }} className="container">
+      <DraggableList items={"Lorem ipsum dolor sit".split(" ")} />
     </div>
   );
 };
