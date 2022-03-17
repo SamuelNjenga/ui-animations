@@ -1,23 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 
-import TrailText from "./useTrail/TrailText";
+import ImageFade from "./useTransitions/ImageFade";
+
 import "./useTrail/TrailText.css";
 
-const App = () => {
-  const [open, set] = useState(true);
 
+const App = () => {
   return (
-    <div
-      style={{ marginLeft: "70px", marginTop: "40px" }}
-      className="container"
-      onClick={() => set((state) => !state)}
-    >
-      <TrailText open={open}>
-        <span>Java</span>
-        <span>TypeScript</span>
-        <span>ReactJS</span>
-        <span>NodeJs</span>
-      </TrailText>
+    <div style={{ marginLeft: "70px", marginTop: "40px" }}>
+      <ImageFade />
     </div>
   );
 };
