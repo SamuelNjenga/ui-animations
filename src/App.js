@@ -1,13 +1,13 @@
 import React from "react";
 
-import DraggableList from "./useSprings/DraggableList";
+import ViewPager from "./useSprings/ViewPager";
 
 import  "./useSprings/styles.module.css";
 
 const App = () => {
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }} className="container">
-      <DraggableList items={"Lorem ipsum dolor sit".split(" ")} />
+      <ViewPager />
     </div>
   );
 };
