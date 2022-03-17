@@ -1,11 +1,11 @@
 import React from "react";
 
-import SvgFilter from "./useSpring/SvgFilter";
+import CardsStack from "./useSpring/CardsStack";
 
 const App = () => {
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <SvgFilter />
+      <CardsStack />
     </div>
   );
 };
