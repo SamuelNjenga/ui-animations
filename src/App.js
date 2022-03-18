@@ -1,11 +1,12 @@
-import React, { useRef } from "react";
-import SimpleTransition from "./useTransitions/SimpleTransition";
+import React from "react";
+
+import EnterComponent from "./useTransitions/EnterComponent";
 
 const App = () => {
 
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <SimpleTransition />
+      <EnterComponent />
     </div>
   );
 };
