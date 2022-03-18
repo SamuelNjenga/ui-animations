@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useRef } from "react";
 
-import Masonry from "./useTransitions/Masonry";
+import { loremIpsum } from "lorem-ipsum";
 
-import "./useTrail/TrailText.css";
-
+import { Main } from "./useTransitions/NotificationHubStyles.js";
+import { MessageHub } from "./useTransitions/NotificationHub.js";
 
 const App = () => {
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.(loremIpsum());
+  };
+
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <Masonry />
+      <Main onClick={handleClick}>
+        Click here to create notifications
+        <MessageHub
+          children={(add) => {
+            ref.current = add;
+          }}
+        />
+      </Main>
     </div>
   );
 };
