@@ -1,6 +1,6 @@
 import React from "react";
 
-import MultiStage from "./useTransitions/MultiStage";
+import Masonry from "./useTransitions/Masonry";
 
 import "./useTrail/TrailText.css";
 
@@ -8,7 +8,7 @@ import "./useTrail/TrailText.css";
 const App = () => {
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <MultiStage />
+      <Masonry />
     </div>
   );
 };
