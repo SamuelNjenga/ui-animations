@@ -1,12 +1,12 @@
 import React from "react";
 
-import EnterComponent from "./useTransitions/EnterComponent";
+import ParallaxComponent from "./parallax/ParallaxComponent";
 
 const App = () => {
 
   return (
     <div style={{ marginLeft: "70px", marginTop: "40px" }}>
-      <EnterComponent />
+      <ParallaxComponent />
     </div>
   );
 };
