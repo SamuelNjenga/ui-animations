@@ -1,11 +1,10 @@
 import React from "react";
-
-import VerticalParallax from "./parallax/VerticalParallax";
+import ParallaxSticky from "./parallax/ParallaxSticky";
 
 const App = () => {
   return (
     <div>
-      <VerticalParallax />
+      <ParallaxSticky />
     </div>
   );
 };
